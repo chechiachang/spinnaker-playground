@@ -32,3 +32,11 @@ hal config storage edit --type gcs
 
 sudo hal deploy apply
 ```
+
+### Access spinnaker
+
+```
+hal deploy connect
+open 'http://localhost:8084'
+open 'http://localhost:9000'
+```
